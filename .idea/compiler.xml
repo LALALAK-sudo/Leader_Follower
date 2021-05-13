@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="leader" />
+        <module name="canal" />
+        <module name="follower_2" />
+        <module name="follower_1" />
+        <module name="eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="follower_1 (1)" target="1.8" />
+      <module name="follower_1 (2)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="canal" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="follower_1" options="-parameters" />
+      <module name="follower_1 (1)" options="-parameters" />
+      <module name="follower_1 (2)" options="-parameters" />
+      <module name="follower_2" options="-parameters" />
+      <module name="leader" options="-parameters" />
+    </option>
+  </component>
+</project>

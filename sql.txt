@@ -1,0 +1,22 @@
+1 主键
+2 leader的x
+3 leader的y
+4 leader的theta
+5 leader的v
+6 leader的ω
+7 版本号
+
+第一步 创建数据库
+create database leader_follower;
+第二步 创建数据库
+create table 表名(
+		id int,
+   		leader_x double,
+   		leader_y double,
+		leader_theta double,
+		leader_v double,
+		leader_ω double,
+   		version date，
+		flag1 varchar(32),
+		flag2 varchar(32)
+   	);
